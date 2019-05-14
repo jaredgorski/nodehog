@@ -1,0 +1,33 @@
+{
+  "name": "nodehog",
+  "version": "0.0.1",
+  "description": "A simple cpu hog utility.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "nodehog": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredgorski/nodehog.git"
+  },
+  "keywords": [
+    "stress",
+    "load",
+    "cpu",
+    "node",
+    "hog",
+    "test"
+  ],
+  "author": "Jared Gorski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredgorski/nodehog/issues"
+  },
+  "homepage": "https://github.com/jaredgorski/nodehog#readme"
+}
