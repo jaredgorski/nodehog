@@ -14,7 +14,14 @@ npm i nodehog
 ```
 
 ## Usage
-### CLI
+This program can be used to create scheduled stress tests on a given target. Use cases include testing program performance under max CPU load, testing recovery from max CPU load, and testing virtual autoscaling features such as the Kubernetes horizontal pod autoscaler.
+
+### Parameters
+- **Lifespan:** The length of the stress period in milliseconds
+- **Deathspan:** The length of the relief period in milliseconds
+- **Iterations:** The number of cycles to complete before NodeHog exits _(1 cycle = 1 lifespan + 1 deathspan)_
+
+#### CLI
 ```shell
 ╔═════════════════════════════════════════/
 ║  nodehog     30000     60000     10
@@ -26,18 +33,12 @@ npm i nodehog
                     deathspan(ms)  |
                               iterations
 ```
-### Programmatically
+#### Programmatically
 ```js
 const NodeHog = require('nodehog');
 
 new NodeHog(30000, 60000, 10).start();
 ```
-
-- **Lifespan:** The length of the stress period in milliseconds
-- **Deathspan:** The length of the relief period in milliseconds
-- **Iterations:** The number of cycles to complete before NodeHog exits _(1 cycle = 1 lifespan + 1 deathspan)_
-
-This program can be used to create scheduled stress tests on a given target. Use cases include testing program performance under max CPU load, testing recovery from max CPU load, and testing virtual autoscaling features such as the Kubernetes horizontal pod autoscaler.
 
 ---
 
