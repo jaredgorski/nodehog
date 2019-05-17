@@ -1,6 +1,6 @@
 {
   "name": "nodehog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple cpu hog utility.",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "nodehog": "./index.js"
+    "nodehog": "./bin.js"
   },
   "repository": {
     "type": "git",
