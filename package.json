@@ -1,6 +1,6 @@
 {
   "name": "nodehog",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A simple cpu hog utility.",
   "main": "index.js",
   "directories": {
