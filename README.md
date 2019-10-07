@@ -1,5 +1,5 @@
 # NodeHog <img align="left" height="100" src="https://raw.githubusercontent.com/jaredgorski/nodehog/master/.media/nodehog.png">
-A simple cpu hog utility.
+A simple resource hog utility.
 
 ![](https://raw.githubusercontent.com/jaredgorski/nodehog/master/.media/nodehog_example.png)
 
@@ -14,7 +14,7 @@ npm i nodehog
 ```
 
 ## Usage
-This program can be used to create scheduled stress tests on a given target. Use cases include testing program performance under max CPU load, testing recovery from max CPU load, and testing virtual autoscaling features such as the Kubernetes horizontal pod autoscaler.
+This program can be used to create scheduled stress tests on a given target. Use cases include testing program performance under max CPU or Memory load, testing recovery from max load, and testing virtual autoscaling features such as the Kubernetes horizontal pod autoscaler.
 
 ### Parameters
 - **Type:** The type of resource to stress _(memory | cpu)_
