@@ -24,10 +24,10 @@ This program can be used to create scheduled stress tests on a given target. Use
 
 #### CLI
 ```shell
-$ nodehog memory 30000 15000 20
+$ nodehog cpu 30000 60000 1
 
 ╔═════════════════════════════════════════════════/
-║  nodehog     cpu      30000     60000     10
+║  nodehog     cpu      30000     60000     1
 ╚═══════════════════════════════════════════════/
      |          |         |         |       |
      |          |         |         |       |
@@ -41,7 +41,7 @@ $ nodehog memory 30000 15000 20
 ```js
 const NodeHog = require('nodehog');
 
-new NodeHog('memory', 30000, 60000, 10).start();
+new NodeHog('memory', 30000, 15000, 10).start();
 ```
 
 ---
