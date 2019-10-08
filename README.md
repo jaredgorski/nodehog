@@ -24,10 +24,10 @@ This program can be used to create scheduled stress tests on a given target. Use
 
 #### CLI
 ```shell
-$ nodehog cpu 30000 60000 1
+$ nodehog cpu 30000 30000 3
 
 ╔═════════════════════════════════════════════════/
-║  nodehog     cpu      30000     60000     1
+║  nodehog     cpu      30000     30000     3
 ╚═══════════════════════════════════════════════/
      |          |         |         |       |
      |          |         |         |       |
