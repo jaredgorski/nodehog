@@ -23,7 +23,7 @@ This program can be used to create scheduled stress tests on a given target. Use
 - **Iterations:** The number of cycles to complete before NodeHog exits _(1 cycle = 1 lifespan + 1 deathspan)_
 
 #### CLI
-```shell
+```console
 $ nodehog cpu 30000 30000 3
 
 ╔═════════════════════════════════════════════════/
